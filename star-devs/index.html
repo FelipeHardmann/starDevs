@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star-Devs</title>
+    <link rel="stylesheet" href="/star-devs/css/styles.css">
+    <script src="/star-devs/js/index.js" defer></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&family=Poppins:wght@400;600&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    
+    <header>
+        <h1>Star-Devs</h1>
+    </header>
+
+    <main>
+        <section class="cards-main">
+            <div class="card-container">
+                <div class="card-main">
+                    <span>Personagens</span>
+                    <h2 id="persons">Carregando...</h2>
+                </div>
+                <img src="/star-devs/img/darth.svg" alt="Imagem Personagens">
+            </div>
+
+            <div class="card-container">
+                <div class="card-main">
+                    <span>Naves Estelares</span>
+                    <h2 id="starships">Carregando...</h2>
+                </div>
+                <img src="/star-devs/img/starship.svg" alt="Imagem Naves Estelares">
+            </div>
+
+            <div class="card-container">
+                <div class="card-main">
+                    <span>Planetas</span>
+                    <h2 id="planets">Carregando...</h2>
+                </div>
+                <img src="/star-devs/img/planet.svg" alt="Imagem Planetas">
+            </div>
+        </section>
+
+        <section class="phrases-container">
+            <button id="btn-phrases" onclick="loadPhrase()">Ler uma frase!</button>
+            <p id="phrase"></p>
+        </section>
+    </main>
+
+</body>
+</html>
